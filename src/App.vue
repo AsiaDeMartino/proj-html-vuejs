@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <MyHeader />
+    <SectionUno />
   </div>
 </template>
 
@@ -10,11 +11,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import '@fortawesome/fontawesome-free/css/all.css';
 
 import MyHeader from './components/MyHeader.vue'
+import SectionUno from './components/SectionUno.vue'
 
 export default {
   name: 'App',
   components: {
-    MyHeader
+    MyHeader,
+    SectionUno,
   }
 }
 </script>
@@ -25,6 +28,12 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   overflow: auto;
