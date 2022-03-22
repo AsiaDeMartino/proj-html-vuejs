@@ -2,6 +2,7 @@
   <div id="app">
     <MyHeader />
     <SectionUno />
+    <SectionDue />
   </div>
 </template>
 
@@ -12,12 +13,14 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 import MyHeader from './components/MyHeader.vue'
 import SectionUno from './components/SectionUno.vue'
+import SectionDue from './components/SectionDue.vue'
 
 export default {
   name: 'App',
   components: {
     MyHeader,
     SectionUno,
+    SectionDue,
   }
 }
 </script>
