@@ -35,7 +35,7 @@ export default {
   }
 
   .info-dx i{ 
-    margin-left: 12px;
+    margin-left: 20px;
   }
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <MyInfo  />
+    <MyHeader />
   </div>
 </template>
 
@@ -9,12 +9,12 @@ import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import '@fortawesome/fontawesome-free/css/all.css';
 
-import MyInfo from './components/MyInfo.vue'
+import MyHeader from './components/MyHeader.vue'
 
 export default {
   name: 'App',
   components: {
-    MyInfo
+    MyHeader
   }
 }
 </script>
@@ -27,6 +27,7 @@ export default {
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+  overflow: auto;
 }
 
 </style>
