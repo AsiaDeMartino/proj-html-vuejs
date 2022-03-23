@@ -6,6 +6,7 @@
     <SectionTre />
     <SectionQuattro />
     <SectionCinque />
+    <SectionSei />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import SectionDue from './components/SectionDue.vue'
 import SectionTre from './components/SectionTre.vue'
 import SectionQuattro from './components/SectionQuattro.vue'
 import SectionCinque from './components/SectionCinque.vue'
+import SectionSei from './components/SectionSei.vue'
 
 export default {
   name: 'App',
@@ -30,6 +32,7 @@ export default {
     SectionTre,
     SectionQuattro,
     SectionCinque,
+    SectionSei,
   }
 }
 </script>
@@ -48,7 +51,10 @@ img {
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+}
 
+h1{
+  font-weight: bold;
 }
 
 </style>
