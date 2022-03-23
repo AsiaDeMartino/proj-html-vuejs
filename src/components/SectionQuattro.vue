@@ -77,7 +77,6 @@ export default {
 
     .mycard{
     width: 200px;
-    height:250px;
     margin-top: 30px;
 
     span{

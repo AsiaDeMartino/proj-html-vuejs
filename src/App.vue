@@ -5,6 +5,7 @@
     <SectionDue />
     <SectionTre />
     <SectionQuattro />
+    <SectionCinque />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import SectionUno from './components/SectionUno.vue'
 import SectionDue from './components/SectionDue.vue'
 import SectionTre from './components/SectionTre.vue'
 import SectionQuattro from './components/SectionQuattro.vue'
+import SectionCinque from './components/SectionCinque.vue'
 
 export default {
   name: 'App',
@@ -27,6 +29,7 @@ export default {
     SectionDue,
     SectionTre,
     SectionQuattro,
+    SectionCinque,
   }
 }
 </script>
