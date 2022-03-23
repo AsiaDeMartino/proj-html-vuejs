@@ -4,6 +4,7 @@
     <SectionUno />
     <SectionDue />
     <SectionTre />
+    <SectionQuattro />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import MyHeader from './components/MyHeader.vue'
 import SectionUno from './components/SectionUno.vue'
 import SectionDue from './components/SectionDue.vue'
 import SectionTre from './components/SectionTre.vue'
+import SectionQuattro from './components/SectionQuattro.vue'
 
 export default {
   name: 'App',
@@ -24,6 +26,7 @@ export default {
     SectionUno,
     SectionDue,
     SectionTre,
+    SectionQuattro,
   }
 }
 </script>
@@ -42,7 +45,7 @@ img {
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  overflow-y: auto;
+
 }
 
 </style>
