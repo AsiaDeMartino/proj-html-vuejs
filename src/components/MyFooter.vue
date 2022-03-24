@@ -26,7 +26,7 @@
     </div>
     <div class="mycard-wrapper col-9 d-flex gap-5">
       <div v-for="(item,i) in card" :key="i" class="mycard d-flex flex-column gap-3">
-        <h5>{{item.title}}</h5>
+        <h5 class="fw-bold">{{item.title}}</h5>
         <ul>
           <li v-for="(element,j) in item.content" :key="j"><i class="fa-solid fa-chevron-right"></i>{{element}}</li>
         </ul>
