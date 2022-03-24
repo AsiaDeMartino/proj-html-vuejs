@@ -48,6 +48,8 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden ;
 }
 
 img {
