@@ -52,7 +52,6 @@ export default {
 .main{
   @include padding-laterale;
   color: $midgray;
-  height: 550px;
   padding-top: 50px;
   padding-bottom: 50px;
   font-size: 12px;

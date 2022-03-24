@@ -7,6 +7,7 @@
     <SectionQuattro />
     <SectionCinque />
     <SectionSei />
+    <MyFooter />
   </div>
 </template>
 
@@ -22,6 +23,7 @@ import SectionTre from './components/SectionTre.vue'
 import SectionQuattro from './components/SectionQuattro.vue'
 import SectionCinque from './components/SectionCinque.vue'
 import SectionSei from './components/SectionSei.vue'
+import MyFooter from './components/MyFooter.vue'
 
 export default {
   name: 'App',
@@ -33,6 +35,7 @@ export default {
     SectionQuattro,
     SectionCinque,
     SectionSei,
+    MyFooter
   }
 }
 </script>

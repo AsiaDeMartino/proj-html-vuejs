@@ -5,8 +5,12 @@
             <div class="background">
                 <div class="menu d-flex justify-content-between align-items-center">
                     <div class="menu-sx">
-                        <div class="logo">NEXGEN</div>
-                        <div class="colore_logo"></div>
+                        <div class="logo fw-bold text-uppercase d-flex align-items-center">
+                            <div class="bg-blue d-flex justify-content-end align-items-center">
+                                <h5>nex</h5>
+                            </div>
+                             <h5>gen</h5>
+                        </div>
                     </div>
                     <div class="menu-dx d-flex align-items-center gap-4">
                         <ul>
@@ -60,6 +64,12 @@ export default {
 @import '/src/assets/mixin';
 @import '/src/assets/variabili';
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header{
     height: 562px;
     background: url('/src/assets/img/bg-9.jpg');
@@ -82,20 +92,17 @@ export default {
 
     .logo{
         letter-spacing: 4px;
-        font-weight: bold;
-        position: relative;
     }
 
-    .colore_logo{
-        height: 40px;
-        width: 70px;
-        background-color: rgba($bluelagoon, 0.5);
-        border-bottom-left-radius: 20px;
-        border-top-left-radius: 20px;
-        position: absolute;
-        transform: translate(-40%,-82%);
-        z-index: 9999;
-    }
+    .bg-blue{
+    background-color: rgba($bluelagoon, 0.3);
+    height: 40px;
+    width: 80px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    color: $fountainblue;
+  }
+
 
     ul{
         list-style: none;
